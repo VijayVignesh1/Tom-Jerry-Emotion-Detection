@@ -10,7 +10,7 @@ There are totally 5 emotions:
 # Implemetation Details
 Since we only have a limited amount of data for training, I have synthesised more images by using the various data augmentation techniques like rotation, shearing, shift-left, shift-right, flip, gaussian blur and adding random noise. <br>
 Once the data was augmented, I found that the data was heavily imbalanced. So I downsampled the required class and made sure all the classes had more or less the same number of images. <br>
-Finally, I tried training the dataset and found the accuracy spike from 25% before data augmentation and balancing to 40%. <br>
+Finally, I tried training the dataset and found an accuracy spike from 25% before data augmentation and balancing to 40%. <br>
 
 # How to run
 
