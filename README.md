@@ -14,24 +14,23 @@ Finally, I tried training the dataset and found the accuracy spike from 25% befo
 
 # How to run
 
-1. 
 ```.bash
 Run "python data-ready.py"
 ```
 This generates frames from the training video and saves it as a h5py file. <br>
-2. 
+ 
 ```.bash
 Run "python data-augment.py"
 ```
 
 This uses the generated h5py file and augments each images and increases the size of the dataset.<br>
-3.
+
 ```.bash
 Run "python data-balanced.py"
 ```
 
 This downsamples the dataset and balances out the dataset.<br>
-4.
+
 ```.bash
 Run "python train.py"
 ```
