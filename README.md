@@ -14,25 +14,29 @@ Finally, I tried training the dataset and found the accuracy spike from 25% befo
 
 # How to run
 
-1. <br>
+1. 
 ```.bash
 Run "python data-ready.py"
 ```
+<br>
 This generates frames from the training video and saves it as a h5py file. <br>
-2. <br>
+2. 
 ```.bash
 Run "python data-augment.py"
 ```
+<br>
 This uses the generated h5py file and augments each images and increases the size of the dataset.<br>
-3.<br>
+3.
 ```.bash
 Run "python data-balanced.py"
 ```
+<br>
 This downsamples the dataset and balances out the dataset.<br>
-4.<br>
+4.
 ```.bash
 Run "python train.py"
 ```
+<br>
 This uses the augmented and balanced data generated and runs ResNet classifier model on them. As of now, the classifier model is ResNet101, which gives an accuracy of 40%. Model can be changed in model.py and used in the train.py file. <br>
 
 I am still working on the project and will be updating the code as I go along. <br>
