@@ -37,4 +37,4 @@ python train.py
 
 This uses the augmented and balanced data generated and runs ResNet classifier model on them. As of now, the classifier model is ResNet101, which gives an accuracy of 40%. Model can be changed in model.py and used in the train.py file. <br>
 
-Thanks <br>
+Thanks!! <br>
